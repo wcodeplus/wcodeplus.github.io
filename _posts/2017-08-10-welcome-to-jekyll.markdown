@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "道一声珍重，道一声珍重"
 date:   2017-08-10 23:42:06 +0800
 categories: jekyll update
 ---
