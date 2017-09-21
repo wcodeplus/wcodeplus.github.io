@@ -228,7 +228,7 @@ main {
 .sidebar {
 	border-right: 1px solid rgba(0,0,0,.07);
 	overflow-y: auto;
-	padding: 40px 0;
+	padding: 10px 0 40px;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -334,6 +334,17 @@ main {
 
 body.sticky .sidebar,body.sticky .sidebar-toggle {
 	position: fixed
+}
+
+#sidebar-logo {
+	width: 100%;
+	border-bottom: 1px solid blueviolet;
+	text-align: center;
+}
+
+#sidebar-log img {
+	width: 200px;
+	height: 50px;
 }
 
 .content {
