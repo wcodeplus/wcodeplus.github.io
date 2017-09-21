@@ -4,27 +4,43 @@ layout: default
 
 <style type="text/css" media="screen">
   .clearfix {overflow:auto;_height:1%}
+  #docsList { padding: 0 5px; }
+  #docsList li { list-style: none; float: left; border: 1px solid #ccc; width: 110px; margin: 5px; }
   #courseList { padding: 0px 5px; }
   #courseList li { width: 110px; height: 110px; background-color: #fff; list-style: none; margin: 5px; float: left; box-shadow: 0 1px 5px #c3c3c3; }
 </style>
 
 <div class="home">
 
-  <h2 class="page-heading">文章列表1</h2>
-  
-  （一）跳转至：<a href="/docs/frontend/#/page1" target="blank">page1</a> <br>
-  （二）跳转至：<a href="/docs/frontend/#/page2" target="blank">page2</a> <br>
-  （三）跳转至：<a href="/docs/frontend" target="blank">web前端教程</a> <br>
-  （三）跳转至：<a href="/docs/php" target="blank">PHP教程</a> <br>
+  <h2 class="page-heading">Part 1 文档教程</h2>
   <hr>
-  <ul id="courseList" class="clearfix">
-    <li></li>
-  </ul>
+  <div>
+    <ul id="docsList" class="clearfix">
+      <li><a href="/docs/frontend" target="blank">开篇说 课程介绍</a></li>
+      <li><a href="/docs/frontend" target="blank">第一篇 前端基础</a></li>
+      <li><a href="/docs/php" target="blank">     第二篇 PC端页面布局与技巧</a></li>
+      <li><a href="/docs/wait" target="blank">第三篇 移动端页面与布局</a></li>
+      <li><a href="/docs/wait" target="blank">第四篇 JavaScript基础</a></li>
+      <li><a href="/docs/wait" target="blank">第五篇 JavaScript提高</a></li>
+      <li><a href="/docs/wait" target="blank">第六篇 JavaScript实战案例大全</a></li>
+      <li><a href="/docs/wait" target="blank">第七篇 Jquery知识点与案例</a></li>
+      <li><a href="/docs/wait" target="blank">第八篇 Jquery插件推荐与使用</a></li>
+      <li><a href="/docs/wait" target="blank">第九篇 前端知识补充（Echarts、地图、动画库等）</a></li>
+    </ul>
+  </div>
+
+  <h2 class="page-heading">Part 2 视频教程</h2>
   <hr>
+  <div>
+    <ul id="courseList" class="clearfix">
+      <li></li>
+    </ul>
+  </div>
   
-  {{ content }}
   
-  <h2>文章列表2</h2>
+  <!-- {{ content }} -->
+  
+  <h2>Part 3 文章列表</h2>
   <hr>
   <ul class="post-list">
     {% for post in site.posts %}
